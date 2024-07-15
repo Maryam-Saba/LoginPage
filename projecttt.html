@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"> 
+<title>LoginPage</title>
+
+<style>
+    body{
+        background-color: #589ED9;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .logo .fa.fa-weibo{
+        color: white;
+        font-size: 50px;
+    }
+    .main{
+        margin-top: 200px;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    h1{
+        color:white;
+        font-size: 32px;
+    }
+   
+    .login{
+        text-align: center;
+        align-items: center;
+    }
+    .login input[type="email"], .login input[type="password"]{
+        border: none; 
+        padding: 10px 20px;
+        margin: 0px;
+        border-radius: 3px;
+        width: 200px; /* Adjust the width as needed */
+        display: block;
+        margin: 0px auto;
+       
+        box-sizing: border-box;
+    }
+    
+    .login input[type="password"]{
+        border-top: 1px solid grey;
+    }
+    .login input[type="email"]{
+        border-bottom: 1px solid grey;
+    }
+
+    .button input[type="button"]{
+        width: 200px; /* Match the width of email and password fields */
+        padding: 10px 20px;
+        color: white;
+        background-color: #2186d4;
+        border: none;
+        border-radius: 2px;
+        display: block;
+        margin: 5px auto;
+        cursor: pointer;
+    }
+
+    .button{
+        padding-top: 10px;
+    }
+
+    a, p{
+        text-decoration: none;
+        color:white;
+    }
+    a{
+        font-weight: 600;
+    }
+</style>
+</head>
+<body>
+<div class="main">
+    <div class="logo"><i class="fa fa-weibo" aria-hidden="true"></i></div>
+    <h1>Welcome.</h1>
+    
+    <div class="login">
+        <input type="email" class="email" placeholder="Email Address" value="" >
+        <input type="password" class="password" placeholder="Password" value="" >
+    </div>
+    
+    <div class="button">
+        <input type="button" name="Submit" value="Login">
+    </div>
+    <p><a href="#">Signup</a> for a new account</p>
+</div>
+</body>
+</html>
